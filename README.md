@@ -158,3 +158,49 @@ https://ap-south-1.console.aws.amazon.com/appsync/home?region=ap-south-1#/apis
     ![alt text](https://github.com/rahulcapitaln/documentation/blob/main/images/db4.png?raw=true)
 
 5. Now RDS connected Successfully.
+
+## NodeJS Lambda Application Serverless Deployment
+
+### Base Serverless Framework Template
+
+## MUST INSTALL
+* install node.js and npm 
+* download amazon-cli on youu machine : https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+
+### install serverless globelly
+```
+ npm i -g serverless
+``` 
+* fetch User access key,secret key in aws
+
+### Configuration
+```
+aws configure
+```
+
+## CREATE PROJECT
+```
+serverless create --template aws-nodejs --path YOUR_PROJECT_NAME
+
+cd YOUR_PROJECT_NAME
+npm install
+```
+
+* For deployment use below command
+```
+sls deploy -v
+```
+* for changes only file & you want to deploy single file instead use below command
+```
+sls deploy -f YOUR_FILE_NAME
+```
+
+* for invoke specific files use below command
+```
+sls invoke -f YOUR_FUNCTION_NAME -l
+```
+
+* check logs for file or function
+```
+sls logs -f YOUR_FILE_NAME -t
+```
