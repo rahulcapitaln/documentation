@@ -94,6 +94,14 @@ while running this command you need to enter following details:
     AppSync for GraphQL
     Cognito for Authentication
 ```
+## Amplify for Existing Application
+
+1. first need to configure aws to check the connection between aws and our repository/
+
+     ``` amplify configure ```
+
+![alt text](https://github.com/rahulcapitaln/documentation/blob/main/images/amplify-1.png?raw=true)
+
 
 ## Lambda Function for AppSync
 
