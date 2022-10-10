@@ -96,7 +96,7 @@ while running this command you need to enter following details:
 ```
 ## Amplify for Existing Application
 
-1. first need to configure aws to check the connection between aws and our repository/
+1. first need to configure aws to check the connection between aws and our repository
 
      ``` amplify configure ```
 
