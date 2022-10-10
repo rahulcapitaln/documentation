@@ -102,6 +102,17 @@ while running this command you need to enter following details:
 
 ![alt text](https://github.com/rahulcapitaln/documentation/blob/main/images/amplify-1.png?raw=true)
 
+2. For pull amplify existing application.
+
+    ``` amplify pull ```
+  
+![alt text](https://github.com/rahulcapitaln/documentation/blob/main/images/amplify-22.png?raw=true)
+
+3. For push update schema into existing application.
+
+    ``` amplify push ```
+  
+![alt text](https://github.com/rahulcapitaln/documentation/blob/main/images/amplify-3.png?raw=true)
 
 ## Lambda Function for AppSync
 
