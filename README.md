@@ -139,6 +139,24 @@ https://ap-south-1.console.aws.amazon.com/appsync/home?region=ap-south-1#/apis
 
     ![alt text](https://github.com/rahulcapitaln/documentation/blob/main/images/imagecn22.1.png?raw=true)
 
+    5.1 for creating an new role use below steps. first you need to go IAM service from AWS then from left side click on role.
+
+     ![alt text](https://github.com/rahulcapitaln/documentation/blob/main/images/newrole1.png?raw=true)
+
+    5.2 after click on create role.
+     ![alt text](https://github.com/rahulcapitaln/documentation/blob/main/images/newrole2.png?raw=true)
+    
+    5.3 select Lambda and then click on next to add policy that we need to execute lambda function.
+    ![alt text](https://github.com/rahulcapitaln/documentation/blob/main/images/newrole3.png?raw=true)
+
+    5.4 once select the awsLambdaExecutionRole click on next and give name for that role and create a role.
+    ![alt text](https://github.com/rahulcapitaln/documentation/blob/main/images/new%20role4.png?raw=true)
+
+    ![alt text](https://github.com/rahulcapitaln/documentation/blob/main/images/newrole4.png?raw=true)
+
+    5.5 after creating a role go to appsync and then select existing role that you have created before.
+    ![alt text](https://github.com/rahulcapitaln/documentation/blob/main/images/newrole5.png?raw=true)
+
 6. Fill all the details with lambda function ARN that you have created recently.
 
     ![alt text](https://github.com/rahulcapitaln/documentation/blob/main/images/2.3.png?raw=true)
@@ -148,7 +166,7 @@ https://ap-south-1.console.aws.amazon.com/appsync/home?region=ap-south-1#/apis
 
     ![alt text](https://github.com/rahulcapitaln/documentation/blob/main/images/2.2.png?raw=true)
 
-9. Then click on attack:
+9. Then click on attach:
 
 10. Then Click on Create & Save.
 
