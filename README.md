@@ -112,7 +112,7 @@ while running this command you need to enter following details:
 
     ``` amplify push ```
   
-![alt text](https://github.com/rahulcapitaln/documentation/blob/main/images/amplify-3.png?raw=true)
+![alt text](https://github.com/rahulcapitaln/documentation/blob/main/images/amlify-3.png?raw=true)
 
 ## Lambda Function for AppSync
 
